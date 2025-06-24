@@ -1,0 +1,30 @@
+{
+  "name": "rs-api-do-app-refund",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev":"npx tsx watch src/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viniciochavess/RS-API-do-APP-Refund.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/viniciochavess/RS-API-do-APP-Refund/issues"
+  },
+  "homepage": "https://github.com/viniciochavess/RS-API-do-APP-Refund#readme",
+  "description": "",
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "zod": "^3.25.67"
+  }
+}
